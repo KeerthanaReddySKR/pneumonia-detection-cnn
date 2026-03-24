@@ -11,16 +11,16 @@ Classes: NORMAL, PNEUMONIA
 
 Structure:
 data
-└── chest_xray/
-    ├── train/
-    │   ├── NORMAL/
-    │   └── PNEUMONIA/
-    ├── val/
-    │   ├── NORMAL/
-    │   └── PNEUMONIA/
-    └── test/
-        ├── NORMAL/
-        └── PNEUMONIA/
+└── chest_xray
+    ├── train
+    │   ├── NORMAL
+    │   └── PNEUMONIA
+    ├── val
+    │   ├── NORMAL
+    │   └── PNEUMONIA
+    └── test
+        ├── NORMAL
+        └── PNEUMONIA
 
 ---
 
