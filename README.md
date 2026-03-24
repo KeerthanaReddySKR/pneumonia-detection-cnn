@@ -69,7 +69,7 @@ Training:
 ---
 
 ## Workflow
-
+```text
 flowchart TD
 A[Dataset] --> B[Preprocessing]
 B --> C[Data Generators]
@@ -77,7 +77,7 @@ C --> D[ResNet50 Model]
 D --> E[Training]
 E --> F[Evaluation]
 F --> G[Results]
-
+```
 ---
 
 ## Results
