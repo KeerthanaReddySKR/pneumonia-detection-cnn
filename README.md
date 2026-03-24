@@ -10,7 +10,7 @@ Chest X-Ray Images (Pneumonia) – Kaggle
 Classes: NORMAL, PNEUMONIA  
 
 Structure:
-data/
+data
 └── chest_xray/
     ├── train/
     │   ├── NORMAL/
