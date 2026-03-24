@@ -69,7 +69,8 @@ Training:
 ---
 
 ## Workflow
-```text
+
+```mermaid
 flowchart TD
 A[Dataset] --> B[Preprocessing]
 B --> C[Data Generators]
@@ -78,9 +79,15 @@ D --> E[Training]
 E --> F[Evaluation]
 F --> G[Results]
 ```
+
 ---
 
 ## Results
 - Accuracy: ~76%  
 - High recall for pneumonia (~90%)  
-- Model prioritizes pneumonia detection (reduces missed cases)  
+- Model prioritizes pneumonia detection (reduces missed cases)
+<img width="712" height="348" alt="Screenshot 2026-03-24 134919" src="https://github.com/user-attachments/assets/1d883538-7076-431d-b4e4-f45320c52f2d" />
+
+<img width="640" height="480" alt="accuracy" src="https://github.com/user-attachments/assets/f57e9b88-cdc0-44bc-80d1-e611a8f7b603" />
+
+
