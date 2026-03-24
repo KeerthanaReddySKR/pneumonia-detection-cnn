@@ -148,6 +148,8 @@ Performance analysis shows:
 
 The confusion matrix indicates that the model is more inclined toward predicting pneumonia, which is acceptable in clinical screening scenarios where minimizing false negatives is critical.
 
+<img width="712" height="348" alt="Screenshot 2026-03-24 134919" src="https://github.com/user-attachments/assets/f6c2d015-1bb3-41f5-b837-57fe21f27de0" />
+
 ---
 
 ## Visualization
