@@ -8,19 +8,19 @@ Deep learning-based system for classifying chest X-ray images into Pneumonia and
 ## Dataset
 Chest X-Ray Images (Pneumonia) – Kaggle  
 Classes: NORMAL, PNEUMONIA  
-
 Structure:
-data
-└── chest_xray
-    ├── train
-    │   ├── NORMAL
-    │   └── PNEUMONIA
-    ├── val
-    │   ├── NORMAL
-    │   └── PNEUMONIA
-    └── test
-        ├── NORMAL
-        └── PNEUMONIA
+
+data/
+└── chest_xray/
+    ├── train/
+    │   ├── NORMAL/
+    │   └── PNEUMONIA/
+    ├── val/
+    │   ├── NORMAL/
+    │   └── PNEUMONIA/
+    └── test/
+        ├── NORMAL/
+        └── PNEUMONIA/
 
 ---
 
