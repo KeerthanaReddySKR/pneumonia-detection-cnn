@@ -8,6 +8,8 @@ Deep learning-based system for classifying chest X-ray images into Pneumonia and
 ## Dataset
 Chest X-Ray Images (Pneumonia) – Kaggle  
 Classes: NORMAL, PNEUMONIA  
+
+```text
 Structure:
 
 data/
@@ -21,7 +23,7 @@ data/
     └── test/
         ├── NORMAL/
         └── PNEUMONIA/
-
+```
 ---
 
 ## Tech Stack
@@ -30,6 +32,7 @@ Python, TensorFlow/Keras, NumPy, Pandas, Matplotlib, OpenCV, Scikit-learn
 ---
 
 ## Project Structure
+```text
 pneumonia-detection-cnn/
 ├── data/
 ├── src/
@@ -43,7 +46,7 @@ pneumonia-detection-cnn/
 │   └── accuracy.png
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## Method
