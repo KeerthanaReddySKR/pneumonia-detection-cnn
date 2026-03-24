@@ -200,7 +200,40 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+# 🔹 Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
+# 🔹 Virtual environments
+venv/
+env/
+.venv/
+
+# 🔹 Jupyter Notebook
+.ipynb_checkpoints/
+
+# 🔹 Dataset (VERY IMPORTANT — never upload raw data)
+data/
+
+# 🔹 Model files (large)
+models/
+*.h5
+*.pt
+*.pth
+
+# 🔹 Logs / outputs
+logs/
+outputs/
+
+# 🔹 OS files
+.DS_Store
+Thumbs.db
+
+# 🔹 IDE files
+.vscode/
+.idea/
 # Marimo
 marimo/_static/
 marimo/_lsp/
