@@ -5,6 +5,40 @@
 This project presents a deep learning-based system for automated detection of pneumonia from chest X-ray images. Leveraging transfer learning with a pretrained convolutional neural network, the model is designed to distinguish between normal and pneumonia cases with reliable performance.
 
 The workflow follows a structured and reproducible machine learning pipeline, including data preprocessing, model development, training, and evaluation.
+## Workflow Overview
+
+```mermaid
+flowchart TD
+
+A[Dataset: Chest X-ray Images] --> B[Data Preprocessing]
+B --> B1[Resize Images (224x224)]
+B --> B2[Normalize Pixel Values]
+B --> B3[Data Augmentation]
+
+B3 --> C[Data Loading]
+C --> C1[Train Generator]
+C --> C2[Validation Generator]
+C --> C3[Test Generator]
+
+C1 --> D[Model Development]
+D --> D1[Load ResNet50 (Pretrained)]
+D --> D2[Freeze Base Layers]
+D --> D3[Add Custom Classification Head]
+
+D3 --> E[Model Training]
+E --> E1[Train on Training Data]
+E --> E2[Validate on Validation Data]
+E --> E3[Early Stopping & Checkpointing]
+
+E3 --> F[Model Evaluation]
+F --> F1[Accuracy]
+F --> F2[Precision, Recall, F1-score]
+F --> F3[Confusion Matrix]
+
+F3 --> G[Results & Visualization]
+G --> G1[Accuracy Graph]
+G --> G2[Performance Analysis]
+```
 
 ---
 
