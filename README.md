@@ -1,7 +1,7 @@
 # Pneumonia Detection from Chest X-ray Images using Deep Learning
 
 ## Overview
-Deep learning-based system for classifying chest X-ray images into **Pneumonia** and **Normal** using transfer learning (ResNet50). The pipeline covers preprocessing, training, and evaluation with reproducible structure.
+Deep learning-based system for classifying chest X-ray images into Pneumonia and Normal using transfer learning (ResNet50). The pipeline includes preprocessing, training, and evaluation.
 
 ---
 
@@ -13,8 +13,14 @@ Structure:
 data/
 └── chest_xray/
     ├── train/
+    │   ├── NORMAL/
+    │   └── PNEUMONIA/
     ├── val/
+    │   ├── NORMAL/
+    │   └── PNEUMONIA/
     └── test/
+        ├── NORMAL/
+        └── PNEUMONIA/
 
 ---
 
@@ -60,7 +66,7 @@ Training:
 ---
 
 ## Workflow
-```mermaid
+
 flowchart TD
 A[Dataset] --> B[Preprocessing]
 B --> C[Data Generators]
@@ -68,3 +74,10 @@ C --> D[ResNet50 Model]
 D --> E[Training]
 E --> F[Evaluation]
 F --> G[Results]
+
+---
+
+## Results
+- Accuracy: ~76%  
+- High recall for pneumonia (~90%)  
+- Model prioritizes pneumonia detection (reduces missed cases)  
